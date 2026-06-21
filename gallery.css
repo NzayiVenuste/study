@@ -1,0 +1,51 @@
+body{
+	background-color: skyblue;
+}
+fieldset{
+	padding: 5px 0px 0px 5px;
+	margin: 0px 0px 5px 5px;
+	background-color: azure;
+	
+	}
+	ul{
+		list-style: none;
+		list-style-position: inherit;
+		background-color: azure;
+		margin: 0px;
+	}
+	a{
+		text-decoration: none;
+        margin-left: 30px;
+		outline-color: red;
+	}
+	h1{
+		animation: move 5s infinite alternate;
+		direction: relative;
+		@keyframes move {
+			from{
+				margin-left: 0;
+			}
+			to {
+				left: 200px
+			}
+		}
+		text-align: center;
+		margin: 0px;
+			}
+	div{
+		margin: 0px;
+		padding: 0px;
+	}
+h3{
+	color: #00f;
+	margin: 5px;
+	margin-right: 110px;
+	margin-left: 110px;
+	background: skyblue;
+	border-color: darkblue;
+	border-radius: 20px;
+}
+video{
+	width: 400px;
+}
+Margin:  
