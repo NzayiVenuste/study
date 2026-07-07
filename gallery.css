@@ -1,3 +1,5 @@
+/*#padding: 0px;
+#margin: 0px;*/
 body{
 	background-color: skyblue;
 }
@@ -11,41 +13,116 @@ fieldset{
 		list-style: none;
 		list-style-position: inherit;
 		background-color: azure;
-		margin: 0px;
+		margin-left: 0px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		padding-left: 9cm;
 	}
 	a{
 		text-decoration: none;
+		font-size: 20px;
         margin-left: 30px;
 		outline-color: red;
+		margin-left: 2cm;
+
 	}
-	h1{
-		animation: move 5s infinite alternate;
-		direction: relative;
-		@keyframes move {
-			from{
-				margin-left: 0;
-			}
-			to {
-				left: 200px
-			}
-		}
-		text-align: center;
-		margin: 0px;
-			}
-	div{
+	a:link{
+		color: blue;
+	}
+	a:active{
+		color: orange;
+	}
+	a:visited{
+		color: red;
+	}
+	a:hover{
+		background-color: blueviolet;
+		border-color: aliceblue;
+		padding: 1px;
+		border-radius: 5px;
+	}
+	/*div{
 		margin: 0px;
 		padding: 0px;
-	}
+	}*/
 h3{
 	color: #00f;
 	margin: 5px;
-	margin-right: 110px;
-	margin-left: 110px;
+	width: 20cm;
 	background: skyblue;
 	border-color: darkblue;
 	border-radius: 20px;
 }
 video{
-	width: 400px;
+	width: 750px;
 }
-Margin:  
+.first{
+	width: 300;
+}
+.head1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	animation: color1 7s linear 2s infinite;
+}
+	@keyframes color1 {
+		0%{
+			color: darkolivegreen;
+		}
+		25%{
+			color: orangered;
+		}
+		50%{
+			color: #00f;
+		}
+		75%{
+			color: aquamarine;
+		}
+		100%{
+			color: f00;
+		}
+	}
+h2{
+        background-color: azure;
+        width: 300px;
+		padding-left: 20px;
+        animation: color2 6s linear 3s infinite;
+    }
+    @keyframes color2{
+        0%{
+            background-color: blue;
+        }
+        25%{
+            background-color: blueviolet;
+        }
+        50%{
+            background-color: darkslategray;
+        }
+        75%{
+            background-color: azure;
+        }
+        100%{
+            background-color: black;
+        }
+    }
+	.first{
+		display: flex;
+		flex-direction: row;
+		gap: 9px;
+	}
+	.first img{
+		width: 400px;
+		height: 250px;
+	}
+	.first video{
+		width: 300px;
+	}
+	.head{
+		font-size: 25px;
+		background-color: #00f;
+		animation: none;
+		width: 47%;
+		border-radius: 5px;
+		padding-left: 4cm;
+		margin-bottom: 0px;
+	}
